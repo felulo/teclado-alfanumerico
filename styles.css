@@ -1,0 +1,79 @@
+#teclado_alfa {
+	width: 100%;
+	height: 100%;
+}
+
+#tecladoAlfanumerico {
+	float: left;
+
+	height: 100%;
+	width: 69%;
+	min-width: 410px;
+}
+
+#tecladoNumerico {
+	float: left;
+	margin-left: 1%;
+
+	height: 100%;
+	width: 30%;
+	min-width: 100px;
+}
+
+#tecladoTabela, #tecladoNumericoTabela {
+	table-layout: auto;
+	width: 100%;
+	font-size: normal 11px Arial, sans-serif;
+	height: 20%;
+}
+
+#tecladoTabela tbody tr td, #tecladoNumericoTabela tbody tr td {
+	text-align: left;
+	vertical-align: top;
+
+	border: 1px solid #000;
+
+	background-color:#124322;
+
+	padding: 1%;
+
+	width: 6%;
+
+	font-size: 1.1em;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#fffff3;
+}
+
+#tecladoTabela tbody tr td.hover, #tecladoNumericoTabela tbody tr td.hover {
+	background-color:#1b9342 ;
+}
+
+#tecladoTabela tbody tr td.pressionado, #tecladoNumericoTabela tbody tr td.pressionado {
+	background-color:#1b9342;
+}
+
+#tecladoTabela:last-child {
+	margin-left: 8%;
+	width: 75%;
+}
+
+#tecladoTabela tbody tr td.ultimo {
+	width: 99%;
+}
+
+#tecladoTabela tbody tr td.space {
+	width: 50%;
+}
+
+#tecladoNumericoTabela tbody tr td {
+	width: 25%;
+}
+
+#tecladoNumericoTabela tbody tr td.zero {
+	width: 50%;
+}
+
+p {
+	float: left;
+	clear: both;
+}

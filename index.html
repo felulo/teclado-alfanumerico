@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Teclado Alfanumerico</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+
+		<script type="text/javascript" src="jquery-1.7.2.min.js"></script>		
+		<script type="text/javascript" src="teclado.js"></script>
+
+		<script type="text/javascript">
+
+			$(function () {
+				TCL_Keyboard.TCL_MostrarTeclado($('#teclado_alfa'));
+				TCL_Keyboard.TCL_InputPadrao = $('#resposta');
+			});
+
+		</script>
+	</head>
+	<body>
+		<div id="teclado_alfa"></div>
+		<div id="resposta" contenteditable="true" readonly="true"></div>
+	</body>
+</html>
